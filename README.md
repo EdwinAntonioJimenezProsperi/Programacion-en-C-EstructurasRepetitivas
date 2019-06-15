@@ -11,7 +11,7 @@ int main()
     printf("ingrese un numero entero: ");//le pido un numero al usuario 
     scanf("%d",&x);//lo almacenó en la dirección de memoria de la variable x con el tipo
     //tipo de dato entero
-    while(i<=6){ //este ciclo es conocido como mientras hacer porque se ejecuta
+    while(i<=x){ //este ciclo es conocido como mientras hacer porque se ejecuta
       printf("%d\t",i);//siempre y cuando la condición sea verdadera
       i++;//siempre debemos asegurarnos que el ciclo termine y no sea infinito 
     }//el cual lo hacemos mediante un acumulador que nos da el numero de veces a repetirse
